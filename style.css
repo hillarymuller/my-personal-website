@@ -3,11 +3,13 @@ body {
     font-family: Optima, sans-serif;
     color: #FFFFFF
 }
-h2 {
+h2, h1 {
     text-align: center;
-    font-family: Bradley, cursive;
+    font-weight: bold;
 }
-h1 {
-    text-align: center;
-    font-family: Bradley, cursive;
+a {
+    color: #FFFFFF;
+}
+a:visited {
+    color: gray;
 }
