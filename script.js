@@ -8,3 +8,7 @@ menu.addEventListener("mouseover", function( event ) {
         event.target.style.color = "";
     }, 500);
 }, false);
+const form = document.getElementById( "myForm" );
+form.addEventListener( "submit", function ( event ) {
+    console.log("Hi, " ${fname} );
+})
